@@ -1,8 +1,8 @@
 # I Do Coordination & Events
 
-Static website for Christyn Martin, prepared for client review on GitHub and Netlify. No framework, dependencies, API keys, or output generation required.
+Static website for Christyn Martin, hosted from GitHub on Netlify. No framework, dependencies, API keys, or output generation required.
 
-**Ready to deploy for review; not yet approved for the client's final domain.** The live Wix site is untouched. The form validates fields and shows a demonstration confirmation; it sends and stores nothing. Search indexing is disabled in HTML and Netlify headers.
+**Site content and design confirmed by the client.** Public review notes and approval disclaimers have been removed. The live Wix site is untouched. The form validates fields and shows a demonstration confirmation; it sends and stores nothing. Search indexing is disabled in HTML and Netlify headers.
 
 ## Local preview
 
@@ -35,7 +35,7 @@ The earlier `preview/` folder contains its own Git repository and is ignored. Re
 4. Deploy and share the resulting `https://<project-name>.netlify.app` URL with Christyn. Do not change the live website's DNS or connect its domain for review.
 5. Use pull requests for subsequent revisions; Netlify can create Deploy Previews after the repository is connected.
 
-Netlify URLs are publicly reachable by default. `noindex` discourages search indexing; it does not restrict access. Client review notes are at `/review.html`.
+Netlify URLs are publicly reachable by default. `noindex` discourages search indexing; it does not restrict access.
 
 Official docs: [file-based configuration](https://docs.netlify.com/build/configure-builds/file-based-configuration/) and [Deploy Previews](https://docs.netlify.com/deploy/deploy-types/deploy-previews/).
 
@@ -43,7 +43,6 @@ Official docs: [file-based configuration](https://docs.netlify.com/build/configu
 
 - `public/index.html`: Homepage and inquiry demonstration.
 - `public/about.html`, `public/services.html`: Supporting pages.
-- `public/review.html`: Client decisions and launch notes.
 - `public/styles.css`: Responsive layout and typography.
 - `public/app.js`: Demonstration form behavior.
 - `public/assets/`: Local photography and logo.

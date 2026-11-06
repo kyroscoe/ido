@@ -1,13 +1,8 @@
 # Client review and final launch
 
-## Christyn's decisions
+## Content approval
 
-- [ ] Confirm the existing 7+ years experience claim and rewritten personal copy.
-- [ ] Approve the booking process and Kayla and Ben's testimonial excerpt.
-- [ ] Define handover timing, meetings, hours, rehearsal support, setup/cleanup limits, and staffing.
-- [ ] Confirm detailed deliverables and package boundaries for Initial Consultation, Comprehensive Event Planning, and Day-of Coordination; the service overviews include venue selection, decor design, and vendor coordination from the existing Services page.
-- [ ] Approve packages, pricing, booking terms, travel fees, and other event availability.
-- [ ] Approve photo reuse, photographer credits, and business social profile links.
+The client confirmed the content and design on November 5, 2026. Public review notes, banners, and confirmation disclaimers have been removed.
 
 ## Inquiry delivery (currently disconnected)
 
@@ -30,7 +25,7 @@
 ## Only after client approval
 
 - [ ] Authorize the final domain switch; keep the live site intact until then.
-- [ ] Remove review banners, unapproved claims, and public review links/pages.
+- [x] Remove public review banners, confirmation disclaimers, and review links/pages.
 - [ ] Remove review noindex metadata and the `X-Robots-Tag` header in `netlify.toml`; keep unfinished previews excluded from search.
 - [ ] Add final-domain canonical URLs, sharing metadata, sitemap, and approved privacy policy.
 - [ ] Verify old-URL redirects, HTTPS, form delivery, and mobile layout on the final domain.

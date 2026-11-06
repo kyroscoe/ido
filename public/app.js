@@ -1,4 +1,4 @@
-// Client-review mode: no transmission or storage of inquiry information.
+// Inquiry delivery is not connected; never claim a message was sent.
 const form = document.querySelector('#inquiry-form');
 
 if (form) {
@@ -8,10 +8,10 @@ if (form) {
   form.addEventListener('submit', event => {
     event.preventDefault();
     if (!form.reportValidity()) return;
-    result.textContent = 'Your preview inquiry is complete. Nothing has been sent or saved, and your date has not been reserved. Live delivery will be connected after Christyn confirms the receiving email and response time.';
+    result.textContent = 'Your details are complete, but this form is not connected and nothing has been sent or saved. Please email hello@idocoordinationandevents.com or call (740) 707-1821 to inquire.';
     result.focus();
   });
 
-  // Enable only after the preview handler is attached.
+  // Enable after the local validation handler is attached.
   submit.disabled = false;
 }
