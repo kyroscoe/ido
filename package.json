@@ -1,0 +1,12 @@
+{
+  "name": "i-do-coordination-events",
+  "version": "1.0.0",
+  "private": true,
+  "description": "I Do Coordination & Events website, prepared for client review on Netlify.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check-site.mjs"
+  }
+}

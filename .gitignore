@@ -1,0 +1,17 @@
+# Dependencies and local tooling
+node_modules/
+.netlify/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+
+# Earlier research and the separate Sites checkout (contains its own Git repo)
+/preview/
+/.openai/
+/original-*.html
+/asset-review.jpg
+/i-do-preview.tar.gz
+
