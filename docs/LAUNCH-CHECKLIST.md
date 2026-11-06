@@ -4,14 +4,15 @@
 
 The client confirmed the content and design on November 5, 2026. Public review notes, banners, and confirmation disclaimers have been removed.
 
-## Inquiry delivery (currently disconnected)
+## Inquiry delivery (Netlify Forms)
 
 - [ ] Confirm receiving email and expected response time.
-- [ ] Approve a test destination and select the form service.
-- [ ] Implement delivery, spam protection, reply routing, and success/failure messages.
+- [x] Enable Netlify Forms (confirmed by site owner).
+- [x] Add static form detection, URL-encoded submission, a honeypot, and success/failure messages.
+- [ ] Verify form detection after deployment and configure Netlify email notifications.
 - [ ] Approve privacy wording and data retention before collecting inquiries.
 - [ ] Verify delivery to the approved destination and test failure handling.
-- [ ] Remove demo messaging and the preview handler only when the live integration works.
+- [x] Replace the demonstration handler and messaging with Netlify Forms submission.
 
 ## Review the Netlify deployment
 

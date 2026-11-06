@@ -2,7 +2,7 @@
 
 Static website for Christyn Martin, hosted from GitHub on Netlify. No framework, dependencies, API keys, or output generation required.
 
-**Site content and design confirmed by the client.** Public review notes and approval disclaimers have been removed. The live Wix site is untouched. The form validates fields and shows a demonstration confirmation; it sends and stores nothing. Search indexing is disabled in HTML and Netlify headers.
+**Site content and design confirmed by the client.** Public review notes and approval disclaimers have been removed. The live Wix site is untouched. The inquiry form submits to Netlify Forms with a honeypot, inline success/failure messages, and native POST support without JavaScript. Search indexing is disabled in HTML and Netlify headers.
 
 ## Local preview
 
@@ -41,10 +41,10 @@ Official docs: [file-based configuration](https://docs.netlify.com/build/configu
 
 ## Editing
 
-- `public/index.html`: Homepage and inquiry demonstration.
+- `public/index.html`: Homepage and Netlify inquiry form.
 - `public/about.html`, `public/services.html`: Supporting pages.
 - `public/styles.css`: Responsive layout and typography.
-- `public/app.js`: Demonstration form behavior.
+- `public/app.js`: Netlify Forms submission and status messages.
 - `public/assets/`: Local photography and logo.
 - `public/404.html`: Custom missing-page response.
 - `netlify.toml`: Deployment and review headers.
@@ -55,6 +55,8 @@ Keep source files UTF-8. Page punctuation uses HTML entities to prevent the earl
 
 ## Final launch requirements
 
-There is no Netlify Forms registration or backend in this review build. Removing the demonstration handler alone will not enable delivery. Confirm the receiving email, response time, approved test destination, and privacy wording with Christyn. Implement delivery, spam protection, reply routing, and failure handling; verify the complete path before the domain launch.
+Netlify Forms is enabled by the site owner. Deploy this revision so Netlify detects the static `wedding-inquiry` form. Verify it appears in the Forms dashboard and configure email notifications there if needed. A real submission and notification delivery have not yet been verified. Local development does not process Netlify submissions.
+
+Official setup: https://docs.netlify.com/manage/forms/setup/
 
 Local page/asset checks pass, but visual and keyboard checks at phone, tablet, and desktop widths remain pending because browser automation was unavailable. Follow the launch checklist before final approval.
