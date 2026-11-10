@@ -2,7 +2,7 @@
 
 Static website for Christyn Martin, hosted from GitHub on Netlify. No framework, dependencies, API keys, or output generation required.
 
-**Site content and design confirmed by the client.** Public review notes and approval disclaimers have been removed. The live Wix site is untouched. The inquiry form submits to Netlify Forms with a honeypot, inline success/failure messages, and native POST support without JavaScript. Search indexing is disabled in HTML and Netlify headers.
+**Client review revision incorporates Christyn's feedback on layout, colors, buttons, full testimonials, and team voice.** Public review notes and approval disclaimers have been removed. The live Wix site is untouched. The inquiry form submits to Netlify Forms with a honeypot, inline success/failure messages, and native POST support without JavaScript. Search indexing is disabled in HTML and Netlify headers.
 
 ## Local preview
 
@@ -51,7 +51,7 @@ Official docs: [file-based configuration](https://docs.netlify.com/build/configu
 - `docs/LAUNCH-CHECKLIST.md`: Requirements before domain launch.
 - `docs/ASSET-SOURCES.md`: Photo provenance and credit decisions.
 
-Keep source files UTF-8. Page punctuation uses HTML entities to prevent the earlier question-mark conversion. Google Fonts supplies Cormorant Garamond and DM Sans; system fallbacks remain available.
+Keep source files UTF-8. Page punctuation uses HTML entities to prevent the earlier question-mark conversion. Google Fonts supplies EB Garamond and DM Sans; system fallbacks remain available.
 
 ## Final launch requirements
 
@@ -59,4 +59,4 @@ Netlify Forms is enabled by the site owner. Deploy this revision so Netlify dete
 
 Official setup: https://docs.netlify.com/manage/forms/setup/
 
-Local page/asset checks pass, but visual and keyboard checks at phone, tablet, and desktop widths remain pending because browser automation was unavailable. Follow the launch checklist before final approval.
+The current revision passed page/asset checks and browser layout checks at 320, 768, and 1440px across Home, About, and Services. Desktop and phone screenshots were inspected. The inquiry link, native required-field validation, and name-to-email keyboard focus were checked. Complete the remaining launch checklist, including the full keyboard walkthrough and delivery verification, before final approval.

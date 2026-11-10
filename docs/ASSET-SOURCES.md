@@ -14,4 +14,4 @@ Original media pattern: `https://static.wixstatic.com/media/<identifier>`.
 
 Sources: [Homepage](https://www.idocoordinationandevents.com/), [About](https://www.idocoordinationandevents.com/about), [Services](https://www.idocoordinationandevents.com/services).
 
-The client confirmed the existing content and assets on November 5, 2026. Photos have not been attributed to Kayla and Ben; no matching wedding identity was supplied. Their testimonial is a faithful excerpt from the original homepage. Phone, email, and the 7+ years claim come from the existing site.
+The client confirmed the existing content and assets on November 5, 2026. Photos have not been attributed to Kayla and Ben; no matching wedding identity was supplied. The full testimonials from Maria and Spencer, Kayla and Ben, and Paige and Hunter are reproduced verbatim from the original homepage. Phone, email, and the 7+ years claim come from the existing site.
