@@ -8,6 +8,9 @@ Photos and the logo come from the existing client site. No generated or replacem
 | christyn.jpg | 0a770b_336218e952444fdab0d089c78fa43b63~mv2.jpg |
 | venue.jpg | 0a770b_32cba497068b4edeb710ff440cceb51f~mv2.jpg |
 | city.jpg | 0a770b_9b7b7d4afa354fa78447e2b1f9e740f9~mv2.jpg |
+| couple.jpg | 0a770b_4dd0b3008af844d6a6fba80c6e456110~mv2.jpg |
+| portrait-couple.jpg | 0a770b_910823dae12242bb987165d0da6da50c~mv2.jpg |
+| table.jpg | 0a770b_8da05c78913642138123279f30c1a81a~mv2.jpg |
 | logo.jpg | 0a770b_d0d3ef606f2b42a59a876f26a8b12f1b~mv2.jpg |
 
 Original media pattern: `https://static.wixstatic.com/media/<identifier>`.
@@ -15,3 +18,8 @@ Original media pattern: `https://static.wixstatic.com/media/<identifier>`.
 Sources: [Homepage](https://www.idocoordinationandevents.com/), [About](https://www.idocoordinationandevents.com/about), [Services](https://www.idocoordinationandevents.com/services).
 
 The client confirmed the existing content and assets on November 5, 2026. Photos have not been attributed to Kayla and Ben; no matching wedding identity was supplied. The full testimonials from Maria and Spencer, Kayla and Ben, and Paige and Hunter are reproduced verbatim from the original homepage. Phone, email, and the 7+ years claim come from the existing site.
+
+Business social URLs supplied by Korey on November 13, 2026:
+
+- https://www.instagram.com/idocoordinationandevents
+- https://www.facebook.com/idocoordinationandevents

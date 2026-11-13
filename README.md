@@ -43,6 +43,7 @@ Official docs: [file-based configuration](https://docs.netlify.com/build/configu
 
 - `public/index.html`: Homepage and Netlify inquiry form.
 - `public/about.html`, `public/services.html`: Supporting pages.
+- `public/gallery.html`: Wedding gallery and links to full-size photographs.
 - `public/styles.css`: Responsive layout and typography.
 - `public/app.js`: Netlify Forms submission and status messages.
 - `public/assets/`: Local photography and logo.
