@@ -43,9 +43,9 @@ button:disabled { opacity: .65; cursor: wait; }
 .eyebrow { margin: 0 0 15px; text-transform: uppercase; letter-spacing: .15em; font-size: 11px; font-weight: 500; color: var(--navy); }
 .wrap { width: min(1120px, 88%); margin: auto; padding: 75px 0; }
 
-.hero { position: relative; isolation: isolate; display: flex; align-items: center; min-height: 570px; padding: 50px 6%; text-align: center; color: var(--navy); }
-.hero-image { position: absolute; inset: 0; height: 100%; object-position: 50% 48%; z-index: -2; }
-.hero-copy { width: 100%; max-width: 560px; padding: 36px 28px; background: rgba(255, 255, 255, .96); }
+.hero { text-align: center; color: var(--navy); }
+.hero-image { height: clamp(360px, 45vw, 600px); object-position: 50% 48%; }
+.hero-copy { width: 100%; max-width: 940px; margin: auto; padding: 36px 6% 40px; }
 .hero .eyebrow { color: var(--navy); margin-bottom: 20px; }
 .hero h1 { font-size: clamp(43px, 4.2vw, 60px); line-height: 1.08; text-wrap: balance; }
 .hero-location { color: var(--text); font-size: 15px; margin: 22px 0 0; }
@@ -133,7 +133,6 @@ footer a { display: inline-block; font-size: 12px; margin-right: 18px; }
   header { gap: 20px; padding-left: 4%; padding-right: 4%; }
   .brand span { display: none; }
   nav { gap: 20px; }
-  .hero { min-height: 530px; }
   .wrap { width: 88%; padding: 60px 0; }
   .steps, .values { gap: 25px; }
   .inquiry, .about-story, .offer { gap: 6%; }
@@ -146,12 +145,11 @@ footer a { display: inline-block; font-size: 12px; margin-right: 18px; }
   .brand span { display: block; font-size: 10px; }
   nav { width: 100%; justify-content: center; flex-wrap: wrap; gap: 8px 20px; font-size: 12px; }
   nav .button { padding: 10px 13px; min-height: 42px; font-size: 11px; }
-  .hero { min-height: 0; padding: 0; flex-direction: column; }
-  .hero-copy { max-width: none; padding: 34px 7% 40px; background: white; }
+  .hero-copy { padding: 28px 7% 32px; }
   .hero h1 { font-size: clamp(39px, 9vw, 53px); }
   .hero .eyebrow { font-size: 10px; letter-spacing: .1em; }
   .hero-location { font-size: 14px; }
-  .hero-image { position: static; height: 320px; object-position: center 48%; }
+  .hero-image { height: 320px; object-position: center 48%; }
   .actions { gap: 12px; margin-top: 26px; }
   .hero .button { min-width: 160px; }
   .photo-grid { gap: 12px; }
